@@ -60,7 +60,7 @@ public class Aboutmain {
 	 */
 	private void initialize() {
 		frmAboutMainPage = new JFrame();
-		frmAboutMainPage.setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Eclipse\\WorkSpace\\Uniteconversion\\src\\img\\Inkeddownload_LI.jpg"));
+		frmAboutMainPage.setIconImage(Toolkit.getDefaultToolkit().getImage("src\\Inkeddownload_LI.jpg"));
 		frmAboutMainPage.setTitle("About main page ");
 		frmAboutMainPage.setBounds(100, 100, 704, 476);
 		frmAboutMainPage.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
