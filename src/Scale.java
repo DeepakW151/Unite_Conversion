@@ -72,7 +72,7 @@ public class Scale {
 		int width = screenSize.width;
 		int height = screenSize.height;
 		frmWeightmain.setSize(width, height);
-		frmWeightmain.setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Eclipse\\WorkSpace\\Uniteconversion\\src\\img\\Inkeddownload_LI.jpg"));
+		frmWeightmain.setIconImage(Toolkit.getDefaultToolkit().getImage("src\\Inkeddownload_LI.jpg"));
 		//frmScaleamain.setBounds(100, 100, 450, 300);
 		frmWeightmain.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frmWeightmain.getContentPane().setLayout(null);
