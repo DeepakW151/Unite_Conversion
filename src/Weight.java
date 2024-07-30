@@ -62,7 +62,7 @@ public class Weight {
 	private void initialize() {
 		frmScalemainpage = new JFrame();
 		frmScalemainpage.setResizable(false);
-		frmScalemainpage.setIconImage(Toolkit.getDefaultToolkit().getImage("src\\Inkeddownload_LI.jpg"));
+		frmScalemainpage.setIconImage(Toolkit.getDefaultToolkit().getImage("D:\\STUDY\\Github_Projects\\Unite_Conversion\\src\\img\\weight.png"));
 		frmScalemainpage.setTitle("Scalemainpage");
 		Toolkit kit = Toolkit.getDefaultToolkit();
 		Dimension screenSize = kit.getScreenSize();

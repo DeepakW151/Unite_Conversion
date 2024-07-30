@@ -47,7 +47,7 @@ public class Home {
 	private void initialize() {
 		frmWeightAndScale = new JFrame();
 		frmWeightAndScale.setResizable(false);
-		frmWeightAndScale.setIconImage(Toolkit.getDefaultToolkit().getImage("src\\Inkeddownload_LI.jpg"));
+		frmWeightAndScale.setIconImage(Toolkit.getDefaultToolkit().getImage("D:\\STUDY\\Github_Projects\\Unite_Conversion\\src\\img\\Inkeddownload_LI.jpg"));
 		frmWeightAndScale.setTitle("Weight and Scale Conversion (Home)");
 		Toolkit kit = Toolkit.getDefaultToolkit();
 		Dimension screenSize = kit.getScreenSize();
@@ -93,7 +93,7 @@ public class Home {
 		});
 		btnScale.setBounds(1200, 331, 258, 247);
 		btnScale.setHorizontalAlignment(SwingConstants.CENTER);
-		btnScale.setIcon(new ImageIcon("src\\Scale.png"));
+		btnScale.setIcon(new ImageIcon("D:\\STUDY\\Github_Projects\\Unite_Conversion\\src\\img\\Scale.png"));
 		frmWeightAndScale.getContentPane().add(btnScale);
 		
 		JButton btnWeight = new JButton("");
@@ -104,7 +104,7 @@ public class Home {
 		});
 		btnWeight.setBounds(127, 331, 258, 247);
 		btnWeight.setHorizontalAlignment(SwingConstants.CENTER);
-		btnWeight.setIcon(new ImageIcon("src\\weight.png"));
+		btnWeight.setIcon(new ImageIcon("D:\\STUDY\\Github_Projects\\Unite_Conversion\\src\\img\\weight.png"));
 		frmWeightAndScale.getContentPane().add(btnWeight);
 		
 		JButton btnBack = new JButton("<Back");
@@ -147,7 +147,7 @@ public class Home {
 		
 		JButton btnLogout = new JButton("");
 		btnLogout.setBounds(1437, 20, 73, 65);
-		btnLogout.setIcon(new ImageIcon("src\\logout.png"));
+		btnLogout.setIcon(new ImageIcon("D:\\STUDY\\Github_Projects\\Unite_Conversion\\src\\img\\logout.png"));
 		panel.add(btnLogout);
 		btnLogout.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -170,7 +170,7 @@ public class Home {
 				Aboutmain.main(null);
 			}
 		});
-		btnBack_1.setIcon(new ImageIcon("src\\info.png"));
+		btnBack_1.setIcon(new ImageIcon("D:\\STUDY\\Github_Projects\\Unite_Conversion\\src\\img\\info.png"));
 		btnBack_1.setFont(new Font("Tahoma", Font.BOLD, 24));
 		btnBack_1.setBounds(10, 10, 37, 28);
 		panel.add(btnBack_1);

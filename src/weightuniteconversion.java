@@ -58,7 +58,7 @@ public class weightuniteconversion {
 		int height = screenSize.height;
 		frmWeightAndScale.setSize(width/2, height/2);
 		frmWeightAndScale.setLocationRelativeTo(null);
-		frmWeightAndScale.setIconImage(Toolkit.getDefaultToolkit().getImage("src\\Inkeddownload_LI.jpg"));
+		frmWeightAndScale.setIconImage(Toolkit.getDefaultToolkit().getImage("D:\\STUDY\\Github_Projects\\Unite_Conversion\\src\\img\\Inkeddownload_LI.jpg"));
 		frmWeightAndScale.setTitle("Weight and Scale Conversion");
 		frmWeightAndScale.setResizable(false);
 		//frmWeightAndScale.setBounds(100, 100, 838, 539);
@@ -67,7 +67,7 @@ public class weightuniteconversion {
 		
 		JLabel lblNewLabel_1 = new JLabel("");
 		lblNewLabel_1.setBounds(268, 68, 217, 138);
-		lblNewLabel_1.setIcon(new ImageIcon("src\\Inkeddownload_LI.jpg"));
+		lblNewLabel_1.setIcon(new ImageIcon("D:\\STUDY\\Github_Projects\\Unite_Conversion\\src\\img\\Inkeddownload_LI.jpg"));
 		frmWeightAndScale.getContentPane().add(lblNewLabel_1);
 		
 		JSeparator separator = new JSeparator();
